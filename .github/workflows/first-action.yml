@@ -1,0 +1,11 @@
+name: MyFirstGitHubActions
+on: [push]
+jobs:
+  my-first-job:
+    runs-on: windows-latest
+    steps:
+      - name: Run tests
+        run: |
+          cd src
+          python -m pytest addition.py
+       
