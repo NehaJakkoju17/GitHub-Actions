@@ -1,4 +1,4 @@
-#test committ to trigger workflow
+#test commit
 name: CI WorkFlow
 on:
   push:
