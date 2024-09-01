@@ -1,15 +1,12 @@
 #test commit
 name: CI WorkFlow
-
 on:
   push:
     branches:
       -main
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Run a one-liner script
       run: echo "Lets Learn GitHub Actions"
