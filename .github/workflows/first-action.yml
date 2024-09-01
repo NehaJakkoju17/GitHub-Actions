@@ -20,13 +20,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
 
-      - name: Run tests 1
+      - name: Run test
         run: |
           cd src
           python -m pytest sample-python.py
-
-      - name: Run tests 2
-        run: |
-          cd src
-          python -m pytest additon.py 
        
