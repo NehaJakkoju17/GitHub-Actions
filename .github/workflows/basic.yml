@@ -2,8 +2,8 @@ name: This is a basic program
 
 on:
   push:
-    paths:
-      - '.github/workflows/basic.yml'
+    branches:
+      - main
 
 jobs:
   build:
